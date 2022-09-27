@@ -91,3 +91,48 @@
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
+
+@media screen  and (max-width:1024px){
+    .inner{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact_form_ttl::after{
+        left: 125px;
+    }
+
+    .contact_form_ttl{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .contact_item{
+        width: 100%;
+        display: block;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .contact_box{
+        display: block;
+    }
+
+    .contact_form_ttl::after{
+        position: relative;
+        left: 10px;
+    }
+
+    .contact_form_box1,
+    .contact_form_box2{
+        width: 90%;
+        height: 35px;
+    }
+
+    .contact_textarea{
+        width: 90%;
+    }
+}

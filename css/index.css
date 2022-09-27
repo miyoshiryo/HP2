@@ -175,3 +175,63 @@
     font-size: 20px;
     line-height: 1.8em;
 }
+
+@media screen  and (max-width:1024px){
+    .about_img img{
+        max-width: 340px;
+    }
+
+    .about_txt .about_ttl h3{
+        font-size: 38px;
+    }
+
+    .feature_wrap .feature_item{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section{
+        width: 90%;
+    }
+
+    .about_wrap .about_txt .about_ttl h3{
+        font-size: 36px;
+    }
+
+    .feature_wrap .feature_item{
+        width: 320px;
+    }
+
+    .feature_wrap .feature_item p{
+        font-size: 20px;
+    }
+
+    .arrow a img{
+        padding: 5% 0 5% 30%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .about_wrap{
+        display: block;
+    }
+
+    .about_img img{
+        width: 400px;
+    }
+
+    .feature_wrap .feature_item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .arrow a img{
+        padding: 0;
+        width: 90%;
+    }
+
+    .service_wrap .service_item p{
+        font-size: 14px;
+    }
+}

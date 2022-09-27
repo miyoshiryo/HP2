@@ -99,3 +99,24 @@
 .feature_img img{
     width: 100%;
 }
+
+@media screen and (max-width:480px){
+    .feature_list{
+        display: block;
+    }
+
+    .feature_item{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+        border: solid 1px #ccc;
+    }
+
+    .feature_item:hover .feature_date::after{
+        content: "";
+        position: absolute;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        right: -5%;
+    }
+}

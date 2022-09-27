@@ -47,3 +47,24 @@
 }
 
 
+@media screen and (max-width:480px){
+    .top .top_bg .top_img{
+        margin: 0 auto;
+    }
+
+    .top .top_bg .top_img h1{
+    font-size: 60px;
+}
+
+  .top .top_bg .top_img p{
+    font-size: 35px;
+  }
+
+  .section_ttl h2{
+    font-size: 50px;
+  }
+
+  .section_ttl h2 small{
+    font-size: 25px;
+  }
+}
